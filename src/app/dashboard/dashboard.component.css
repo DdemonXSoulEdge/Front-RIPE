@@ -1,0 +1,56 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f1f5f9;
+  padding: 16px;
+}
+
+.title {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+/* ✅ MOBILE FIRST */
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.value {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: gray;
+}
+
+/* ✅ TABLET */
+@media (min-width: 768px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ✅ DESKTOP */
+@media (min-width: 1024px) {
+  .cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
