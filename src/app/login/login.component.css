@@ -72,16 +72,12 @@
   font-size: 1rem;
   background-color: blueviolet;
   color: #ffffff;
-  font-style: normal;
   border-radius: 10px;
+  border: none;
   font-family: 'Arial', sans-serif;
-
 }
 
 .login-button:hover {
   background-color: #5a00d1;
   cursor: pointer;
-  color: #ffffff;
-  font-family: 'Arial', sans-serif;
-
 }
